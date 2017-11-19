@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>URL Information</title>
+<style>  
+.email1
+{
+	width:360px;
+	margin: 50px auto;
+	font-family: cambria,"Hoefler Text","Liberation serif",Times,"Times New Roman",serif;
+	color:#006;
+	border-radius:10px;
+	border: 2px solid #000;
+	margin-top:70px;
+	padding:10px 40px 25px;
+}
+input[type=text]
+{
+	width:99%;
+	padding:10px;
+	margin-top:8px;
+	border:1px solid #cc;
+	padding-left:5px;
+	font-size:16px;
+	font-family:cambria,"Hoefler Text","Liberation Serif",Times,"Times New Roman",serif;
+}
+
+input[type=submit]
+{
+	width:100%;
+	background-color:#009;
+	color:#fff;
+	border:2px solid #06F;
+	padding:10px;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:5px;
+	margin-bottom:15px;
+}
+</style>
+</head>
+
+<body>
+<div class="email1">  
+
+<!--Heading of the GUI-->                                        
+<h1 align="center">URL Information Using Curl Request</h1>       
+<hr/>
+
+<!--Refer to url1.php to get title, keyword, description, internal and external links of any URL-->
+<form action="url1.php" method="get" style="text-align:center;">   
+
+<!--Enter URL-->   
+<input type="text" placeholder="Enter URL" name="name"><br/><br/>  
+
+<!--To view the informaion abot the URL-->
+<input type="submit" value="View Information" name="submit" />      
+</form>
+</div>
+</body>
+</html>
